@@ -1,0 +1,103 @@
+.Container {
+    margin: 30px;
+}
+
+/* For Greeting in First */          
+.hi {
+    color: orange; 
+    text-align: center;
+    text-shadow: 0 0 3px rgb(71, 51, 47), 0 0 5px rgb(68, 30, 27);
+}
+            
+.paragraph {
+    color: rgb(151, 142, 142);
+    text-align: center;
+}
+
+/* Contact info of my Email, Twitter and Instagram */
+.contact-me {
+    font-size: 20px;
+    color: rgba(0, 102, 255, 0.568);
+}
+
+.insta {
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+/* For Transitions */
+.email, .twitt, .insta {
+    -webkit-transition: all 10s ease;    /*Chrome, Safari*/
+    -moz-transition: all 4s ease;   /*FireFox*/
+    -ms-transition: all 4s ease;    /*Internet Explorer*/
+    -o-transition: all 4s ease;     /*Opera*/
+    transition: width 4s ease;
+}
+
+.email:hover, .twitt:hover, .insta:hover{
+    width: 200px;
+}
+
+
+#white-space {
+    margin-bottom: 280px;
+}
+
+
+
+
+/* For Form to take user input */
+#form {
+    margin: auto;
+    width: 50%;
+}
+.submission-form {
+    max-width: 500px;
+    border: 5px solid orange;
+    border-radius: 10px; 
+    padding:20px;
+    text-align: left;
+}
+
+label, legend{
+    font-size: 20px;
+}
+
+.submission-form input {
+    color: white;
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+}
+
+.submission-form textarea {
+    color: whitesmoke;
+    font-size: 16px;
+    width: 98%;
+    background-color: grey;
+}
+
+.submission-form button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 28px;
+    background-color: green;
+    color: whitesmoke;
+    outline: none;
+    border-radius: 10px;
+}
+
+.submission-form ::placeholder {
+    color: whitesmoke;
+}
+
+.submission-form button:hover {
+    background-color: teal;
+}

@@ -1,0 +1,148 @@
+
+/* For Mock Test in Chapters */
+.horizontal-line {
+  border: 10px solid green;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.OptionalMock-test {
+  color: rgb(255, 196, 0);
+}
+
+/* Margin between MockTest Container and Footer*/
+.mock-test {
+    margin-bottom: 30px;
+}
+
+.test-container {
+    margin: 0 50px 50px 50px;
+    display: inline-table;
+
+}
+
+
+.inner-button {
+    font-size: 15px;
+    padding: 12px 35px;
+    background-color: lawngreen;
+    border: solid darkgreen 5px;
+    border-radius: 14px;
+    box-shadow: 0 9px #999;
+}
+
+
+.inner-button:focus {
+  outline: none;
+}
+.inner-button:hover {background-color:#3e8e41;}
+
+.inner-button:active { 
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(6px);
+}
+
+.correct {
+    margin-left: 160px;
+    color: mediumturquoise;
+    visibility: hidden;
+    font-size: 60px;
+    display: inline;
+
+}
+/* Up to here Mock Test in Chapters */
+
+
+
+/* This is for all the source code of Chapters */
+.source-code1 {
+  color: rgb(0, 26, 255);
+  margin-left: 200px;
+  font-family: monospace;
+}
+
+
+
+
+
+
+
+/* Below Here all is  for Examples */
+
+
+/* To print output of source code of Examples in RED COLOR */
+.printing-pattern {
+  color: red;
+}
+
+/* For all the Motivational Quote in Examples */
+.motivation-quote {
+margin-top: 20px; 
+background-color: #1C2834;
+padding: 8px 4px;
+border-radius: 12px;
+}
+.quote {
+color:white;
+}
+
+
+
+
+/*
+ For Show and Hide Source Code in Examples (HTML)
+*/
+.sourceCode-button {
+  background-color: #eee;
+  color: rgb(2, 0, 1);
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition-timing-function: linear;
+
+  transition: 2s;
+}
+
+.active, .sourceCode-button:hover {
+  background-color: #ccc;
+
+}
+
+.sourceCode-button:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* This is for source code only in Examples */
+.source-code {
+  color: rgb(0, 26, 255);
+  padding: 0 18px;
+  display: none;
+  background-color: #ccc;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .test-container {
+    display: block;
+    width: 100%;
+  }
+  .correct {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+}
